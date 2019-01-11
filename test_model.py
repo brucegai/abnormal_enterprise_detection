@@ -88,7 +88,6 @@ class test_function:
             csvwriter=csv.writer(file_w)
             for line in error_list:
                 csvwriter.writerow(line)
-        # print(w / 40000,error_list,len(error_list))
 
     def test_all(self):
         data = self.test_function_one()
